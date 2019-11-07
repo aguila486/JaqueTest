@@ -1,0 +1,37 @@
+.img-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+  table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    margin: 45px;     width: 480px; text-align: left;    
+    border-collapse: collapse; 
+}
+
+
+th {     
+    font-size: 15px;     
+    font-weight: normal;     
+    padding: 8px;     
+    background: #fff;
+    border-top: 1px solid #000;    
+    border-bottom: 1px solid #000; 
+    color: #000;
+    text-align: center;
+}
+
+td {    
+    padding: 8px;     
+    background: #fff;     
+    border-bottom: 1px solid #ddd;
+    color: #000;    
+    border-top: 1px solid transparent; 
+    text-align: center;
+}
+
+tr:hover td { 
+    background: #eee; 
+    color: #9C9C9C; 
+}

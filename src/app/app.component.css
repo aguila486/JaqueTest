@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.main-content{
+    
+}

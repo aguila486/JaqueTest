@@ -1,0 +1,26 @@
+header {
+	height: 60px;
+	background: #fff;
+	position: fixed;
+	width: 100%;
+    z-index: 99;
+    border: 1px solid #eee;
+}
+
+
+.menu {
+	display: flex;
+	height: inherit;
+	align-items: center;
+	padding: 0 20px;
+}
+.menu li {
+	padding: 0 10px;
+}
+.menu a {
+	color: #000;
+}
+.logo {
+	flex: 1;
+	font-size: 22px;
+}

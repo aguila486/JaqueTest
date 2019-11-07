@@ -1,0 +1,62 @@
+<div>
+  <div> 
+    <h4>Usuarios</h4>
+    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. .</span>
+  </div>
+  <div>
+    <div>Previsualizar</div>
+    <div>Agregar nuevo usuario</div>
+  </div>
+
+  <div>
+    <div>
+      <h6>Buscador</h6>
+    </div>
+    <div>
+      <h5>8 por pagina</h5>
+      <h5>Ordenar de A-Z</h5>
+      <h5>Todos</h5>
+    </div>
+    <div>
+      <a>Lista</a>
+      <a>Card</a>
+    </div>
+    <div>
+      
+        <form class="form-inline my-2 my-lg-0">
+            <select id="tipo" name="role" #bySearch >
+                <option value="">Todos</option>
+                <option value="op1">Nombre</option>
+                <option value="op2">Email</option>
+              </select>
+            <input class="form-control mr-sm-2" type="text" placeholder="Buscar héroe" (keyup.up)="searcUser(searchWord.value, bySearch.value)" #searchWord>
+            <button (click)="searcUser(searchWord.value)"
+                class="btn btn-outline-primary my-2 my-sm-0" type="button">Buscar
+            </button>
+
+          </form>
+
+    <table class="table table-striped">
+      <tr class="info">
+        <th>Foto</th>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Edad</th>
+        <th>Email</th>
+        <th>Rol</th>
+        <th>Status</th>
+      </tr>
+      <tr *ngFor="let valor of lstUser">
+        <td><img class="img-circle" [src]=valor.picture alt=""></td>
+        <td>{{ valor.name }}</td>
+        <td>{{ valor.fathersLastName }}</td>
+        <td>{{ valor.mothersLastName }}</td>
+        <td>{{ valor.email }}</td>
+        <td>{{ valor.roleId }}</td>
+        <td>{{ valor.active }}</td>
+      </tr>
+    </table>
+    </div>
+    </div>
+
+</div>

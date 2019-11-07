@@ -1,27 +1,47 @@
 # JaqueTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+_Administrador de usuarios 
 
-## Development server
+## Comenzando 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Pre-requisitos 📋
 
-## Build
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+Node version 12.13
+Json-server 
+Angular CLI: 8.0.6
+Angular: 8.03
+```
 
-## Running unit tests
+### Instalación 🔧
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_Instalación de json-server_
 
-## Running end-to-end tests
+_npm install -g json-server_
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+Una vez instalado ve a la carpeta del proyecto descargado dentro de ella ve a JaqueTest/src/assets/json
+```
 
-## Further help
+_Ejecuta el siguiente comando_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+json-server --watch users.json
+```
+
+_Una vez ejecutado el comando dirigete a la ulr localhost:3000 para visualizar que tu servidor se encuentra funcionando para poder realizar las peticiones correctas_
+
+
+
+## Autores ✒️
+
+* **Ricardo Gallardo Márquez** - *Desarrollo* - [RicardoGM](https://github.com/aguila486)
+
+
+---
+⌨️ con ❤️ por [Ricardo Gallardo ](https://github.com/aguila486) 😊
